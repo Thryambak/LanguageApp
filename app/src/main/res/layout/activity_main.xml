@@ -4,21 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#931003"
     tools:context=".MainActivity">
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/gridlayout"
         android:layout_width="368dp"
         android:layout_height="495dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#931003"
         app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:rowCount="5">
@@ -29,6 +32,7 @@
             android:layout_width="144dp"
             android:layout_height="90dp"
             android:layout_marginLeft="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="kan"
             android:tag="doyouspeakenglish"
             android:text="Kannada" />
@@ -38,15 +42,18 @@
             android:layout_width="144dp"
             android:layout_height="90dp"
             android:layout_marginLeft="40dp"
+            android:background="@drawable/roundbutton"
             android:onClick="eng"
             android:tag="doyouspeakenglish"
-            android:text="French" />
+            android:text="French"
+            android:textColor="#FFFCFC" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="144dp"
             android:layout_height="90dp"
             android:layout_marginLeft="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="doyouspeakenglish"
             android:text="ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತೀರಾ" />
@@ -57,6 +64,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="8dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="hello"
             android:text="ನಮಸ್ತೆ" />
@@ -68,6 +76,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="howareyou"
             android:text="ನೀವು ಹೇಗಿದ್ದೀರಿ" />
@@ -78,6 +87,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="goodevening"
             android:text="ಶುಭ ದಿನ" />
@@ -88,6 +98,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="ilivein"
             android:text="ನಾನು ವಾಸ ಮಾಡುತ್ತಿರುವುದು ..." />
@@ -98,6 +109,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="mynameis"
             android:text="ನನ್ನ ಹೆಸರು.." />
@@ -108,6 +120,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="please"
             android:text="ದಯವಿಟ್ಟು" />
@@ -118,6 +131,7 @@
             android:layout_height="90dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
             android:onClick="click"
             android:tag="welcome"
             android:text="ಸ್ವಾಗತ" />
